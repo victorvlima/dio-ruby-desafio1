@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @processo %>
+
+<div>
+  <%= link_to "Edit this processo", edit_processo_path(@processo) %> |
+  <%= link_to "Back to processos", processos_path %>
+
+  <%= button_to "Destroy this processo", @processo, method: :delete %>
+</div>

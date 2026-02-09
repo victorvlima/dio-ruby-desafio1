@@ -1,0 +1,12 @@
+<% content_for :title, "Editing processo" %>
+
+<h1>Editing processo</h1>
+
+<%= render "form", processo: @processo %>
+
+<br>
+
+<div>
+  <%= link_to "Show this processo", @processo %> |
+  <%= link_to "Back to processos", processos_path %>
+</div>
